@@ -15,6 +15,7 @@ Die Themen, die ich in der `master.adoc` Datei aufgeschrieben habe, sind noch ni
 ## Vorgehen
 
 ### Schreiben
+
 . Wählt ein Thema. Falls das aus der Übersicht stammt, löscht es dort und fügt eine Datei im Ordner Chapter mit dem Thema hinzu.
 . Fügt die Datei als include in die `master.adoc` ein.
 . Formuliert das Thema aus.
