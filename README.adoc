@@ -1,0 +1,11 @@
+= "Skript" Propra 1 und 2
+
+== Bauen
+
+Voraussetzungen: make und docker 
+
+Dockerimage erzeugen: `make dockerimage`
+Buch erzeugen: `make`
+
+Der Buildprozess verwendet das Dockerimage. 
+
