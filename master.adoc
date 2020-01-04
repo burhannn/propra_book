@@ -11,7 +11,6 @@
 
 toc::[]
 
-:leveloffset: +1
 :listing-caption: Listing
 :table-caption: Tabelle
 :figure-caption: Abbildung
