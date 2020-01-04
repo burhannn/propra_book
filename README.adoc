@@ -2,10 +2,11 @@
 
 == Bauen
 
-Voraussetzungen: make und docker 
+Voraussetzungen: docker 
 
 Dockerimage erzeugen: `make dockerimage`
 Buch erzeugen: `make`
 
 Der Buildprozess verwendet das Dockerimage. 
 
+ 
