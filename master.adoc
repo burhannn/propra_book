@@ -1,0 +1,109 @@
+= Softwareentwicklung
+:doctype: book
+
+:source-highlighter: coderay
+:coderay-linenums-mode: table
+:coderay-css: style
+
+:toc-title: Inhaltsverzeichnis
+:numbered: true
+:sectnumlevels: 2
+
+toc::[]
+
+:leveloffset: +1
+:listing-caption: Listing
+:table-caption: Tabelle
+:figure-caption: Abbildung
+
+include::chapter/00_einleitung.adoc[]
+
+== Kontrollstrukturen 
+* Welche Formen von Schleifen gibt es und wie werden sie benutzt (for, foreach, while/do while, Rekursion)
+* Wie schreibt man sinnvolle if Statements (Vermeiden von Negation - besonders doppelter, kein if (foo) return true)
+
+== Datenstrukturen 
+* Listen 
+* Sets
+* Maps
+* Stacks
+* Queues
+* Arrays
+* Generics 
+
+== Unter der Haube
+* Was ist ein Klassenpfad?
+* Was ist ein Package?
+* Was sind statische Methoden/Attribute und wie unterscheiden sie sich von nich-statischen?
+* Wann werden Klassen geladen und was passiert beim Laden?
+* Was macht Java beim Programmstart?
+* Welche Effekte hat final?
+* Was für Sichtbarkeinten gibt es und wie nutzen wir das zur Strukturierung?
+* Was ist der Zusammenhang zwischen Klassennamen und Dateinamen?
+* Java Modulsystem 
+
+== "Neuere" Java Features
+* Anonyme Klassen und direkte Implementierung von Interfaces
+* Lambda Ausdrücke als Alternative für annonyme innere Klassen
+* Streams und wie man damit programmiert (inkl. Funktionen höherer Ordnung)
+* Typinferenz (var)
+
+== Konventionen 
+* Einrückung und Klammern
+* Groß/Kleinschreibung
+
+== Grundlagen 
+* Klassen und Objekte
+* Ein Name ist ein String, warum soll ich eine Name Klasse schreiben?
+
+== Code Smells
+* Duplikationen
+* Lange Methoden 
+* Klassen mit vielen Methoden
+* Umfangreiche Parameterlisten 
+* Boolsche Parameter 
+* Viele Calls in eine andere Klasse
+* Trainwrecks
+* Kommentierwahn
+* Uneinheitlicher Abstraktionslevel 
+
+== Prinzipien 
+* Law of Demeter 
+* Singe Responsibility Prinzip
+* Information Hiding Prinzip
+
+== Testing
+* JUnit 5
+* Assertion Frameworks
+** Hamcrest
+** AssertJ
+* TDD
+** Chicago/Detroit Schule
+** Londoner Schule
+** Münchner Schule
+* Mocks, Stubs und Spies
+
+== Refaktoring Basics
+* Umbennenen
+* Extraktion von Methoden
+* Extraktion von Variablen 
+* Extraktion von Klassen 
+* Extraktion von Interfaces
+
+== Umgang mit der IDE
+* Refactoring Werkzeuge
+* Debugging
+* Fehlergetriebene Entwicklung (Alt-Enter/Cmd-F1)
+
+== Programmieren 
+* Strukturierung von Programmen
+* Programmieren ist nicht Tippen, du kannst deinen Code wegwerfen 
+* Es ist niemals bei ersten Mal richtig 
+
+== Git Basics 
+* Clonen 
+* Commiten und Pushen 
+* Staging 
+
+== Literatur
+bibliography::[]
