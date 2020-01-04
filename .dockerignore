@@ -1,0 +1,11 @@
+chapter/
+**/*.adoc
+**/*.md
+**/*.pdf
+Makefile
+references.bib
+.DS_Store
+.git
+.dockerignore
+.gitignore
+Dockerfile
