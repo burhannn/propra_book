@@ -1,8 +1,10 @@
 .DEFAULT_GOAL := proprabook.pdf
 
-
 proprabook.pdf: clean
-	asciidoctor-pdf -a source-highlighter=coderay -r asciidoctor-bibtex -a toc -a chapter-label -a pagenums master.adoc -o proprabook.pdf
+	docker run --rm -v $(shell pwd):/book propra_book_buildcontainer
 
 clean:
 	rm -rf proprabook.pdf
+
+dockerimage:
+	docker build . -t propra_book_buildcontainer
