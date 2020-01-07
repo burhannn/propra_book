@@ -22,9 +22,6 @@ include::chapter/00_einleitung.adoc[]
 * Wie schreibt man sinnvolle if Statements (Vermeiden von Negation - besonders doppelter, kein if (foo) return true)
 
 == Datenstrukturen
-* Stacks
-* Queues
-* Arrays
 * Generics
 
 == Unter der Haube
