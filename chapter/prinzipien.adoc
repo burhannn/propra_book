@@ -1,0 +1,8 @@
+7. Prinzipien
+
+Law of Demeter
+
+Singe Responsibility Prinzip
+
+Information Hiding Prinzip
+
