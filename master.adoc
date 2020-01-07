@@ -88,10 +88,5 @@ include::chapter/00_einleitung.adoc[]
 * Programmieren ist nicht Tippen, du kannst deinen Code wegwerfen
 * Es ist niemals bei ersten Mal richtig
 
-== Git Basics
-* Clonen
-* Commiten und Pushen
-* Staging
-
 == Literatur
 bibliography::[]
