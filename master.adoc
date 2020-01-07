@@ -27,10 +27,8 @@ include::chapter/00_einleitung.adoc[]
 == Unter der Haube
 * Was ist ein Klassenpfad?
 * Was ist ein Package?
-* Was sind statische Methoden/Attribute und wie unterscheiden sie sich von nich-statischen?
 * Wann werden Klassen geladen und was passiert beim Laden?
 * Was macht Java beim Programmstart?
-* Welche Effekte hat final?
 * Was für Sichtbarkeinten gibt es und wie nutzen wir das zur Strukturierung?
 * Was ist der Zusammenhang zwischen Klassennamen und Dateinamen?
 * Java Modulsystem
