@@ -1,0 +1,10 @@
+== Code Smells
+* Duplikationen
+* Lange Methoden 
+* Klassen mit vielen Methoden
+* Umfangreiche Parameterlisten 
+* Boolsche Parameter 
+* Viele Calls in eine andere Klasse
+* Trainwrecks
+* Kommentierwahn
+* Uneinheitlicher Abstraktionslevel 
