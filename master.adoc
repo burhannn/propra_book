@@ -17,18 +17,18 @@ toc::[]
 
 include::chapter/00_einleitung.adoc[]
 
-== Kontrollstrukturen 
+== Kontrollstrukturen
 * Welche Formen von Schleifen gibt es und wie werden sie benutzt (for, foreach, while/do while, Rekursion)
 * Wie schreibt man sinnvolle if Statements (Vermeiden von Negation - besonders doppelter, kein if (foo) return true)
 
-== Datenstrukturen 
-* Listen 
+== Datenstrukturen
+* Listen
 * Sets
 * Maps
 * Stacks
 * Queues
 * Arrays
-* Generics 
+* Generics
 
 == Unter der Haube
 * Was ist ein Klassenpfad?
@@ -39,7 +39,7 @@ include::chapter/00_einleitung.adoc[]
 * Welche Effekte hat final?
 * Was für Sichtbarkeinten gibt es und wie nutzen wir das zur Strukturierung?
 * Was ist der Zusammenhang zwischen Klassennamen und Dateinamen?
-* Java Modulsystem 
+* Java Modulsystem
 
 == "Neuere" Java Features
 * Anonyme Klassen und direkte Implementierung von Interfaces
@@ -47,27 +47,16 @@ include::chapter/00_einleitung.adoc[]
 * Streams und wie man damit programmiert (inkl. Funktionen höherer Ordnung)
 * Typinferenz (var)
 
-== Konventionen 
+== Konventionen
 * Einrückung und Klammern
 * Groß/Kleinschreibung
 
-== Grundlagen 
+== Grundlagen
 * Klassen und Objekte
 * Ein Name ist ein String, warum soll ich eine Name Klasse schreiben?
 
-== Code Smells
-* Duplikationen
-* Lange Methoden 
-* Klassen mit vielen Methoden
-* Umfangreiche Parameterlisten 
-* Boolsche Parameter 
-* Viele Calls in eine andere Klasse
-* Trainwrecks
-* Kommentierwahn
-* Uneinheitlicher Abstraktionslevel 
-
-== Prinzipien 
-* Law of Demeter 
+== Prinzipien
+* Law of Demeter
 * Singe Responsibility Prinzip
 * Information Hiding Prinzip
 
@@ -85,8 +74,8 @@ include::chapter/00_einleitung.adoc[]
 == Refaktoring Basics
 * Umbennenen
 * Extraktion von Methoden
-* Extraktion von Variablen 
-* Extraktion von Klassen 
+* Extraktion von Variablen
+* Extraktion von Klassen
 * Extraktion von Interfaces
 
 == Umgang mit der IDE
@@ -94,15 +83,15 @@ include::chapter/00_einleitung.adoc[]
 * Debugging
 * Fehlergetriebene Entwicklung (Alt-Enter/Cmd-F1)
 
-== Programmieren 
+== Programmieren
 * Strukturierung von Programmen
-* Programmieren ist nicht Tippen, du kannst deinen Code wegwerfen 
-* Es ist niemals bei ersten Mal richtig 
+* Programmieren ist nicht Tippen, du kannst deinen Code wegwerfen
+* Es ist niemals bei ersten Mal richtig
 
-== Git Basics 
-* Clonen 
-* Commiten und Pushen 
-* Staging 
+== Git Basics
+* Clonen
+* Commiten und Pushen
+* Staging
 
 == Literatur
 bibliography::[]
